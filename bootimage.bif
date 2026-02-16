@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\yolov5s_conv\platform\export\platform\sw\boot\fsbl.elf
+	D:\yolov5s_conv\cnn_app\_ide\bitstream\design_1_wrapper.bit
+	D:\yolov5s_conv\cnn_app\build\cnn_app.elf
+}
