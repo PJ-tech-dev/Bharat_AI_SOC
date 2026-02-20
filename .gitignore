@@ -1,4 +1,4 @@
-﻿# Vivado generated
+# Vivado generated
 *.bit
 *.log
 *.jou
@@ -20,3 +20,8 @@ Release/
 # Large IP output
 *.xci
 *.gen/
+
+# Python env/cache
+.venv/
+__pycache__/
+*.pyc

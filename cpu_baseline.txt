@@ -1,0 +1,10 @@
+CPU Baseline Results
+Model: yolov5s
+Runs: 20
+Warmup: 5
+Threads: 12
+FP16 enabled: False
+Average latency: 84.26 ms
+Throughput: 11.9 FPS
+Target FPGA speedup: 2x
+Target FPGA latency: 42.13 ms
