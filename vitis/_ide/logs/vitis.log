@@ -1,0 +1,896 @@
+12:49:43 INFO  : updated workspace path: D:\yolov5s_conv\vitis
+12:49:45 INFO  : [INFO]: Initializing repositories
+12:49:45 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+12:49:45 INFO  : Successfully created repository data at C:\Users\prana\AppData\Local\Temp\rigel_lopper_Pranav_J5544121852230193109
+12:49:45 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\prana\AppData\Local\Temp\rigel_lopper_Pranav_J2586301721728958000 -r C:\Users\prana\AppData\Local\Temp\rigel_lopper_Pranav_J5544121852230193109\.repo.yaml
+12:49:45 INFO  : Embedded Template List generated successfully
+12:49:45 INFO  : cmd.exe, /C, empyro.bat repo -st   D:\Vivado\2025.2\Vitis\data\embeddedsw
+12:49:47 INFO  : [INFO]: Initializing repositories
+12:49:47 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+12:49:47 INFO  : Successfully created repository data at D:\yolov5s_conv\vitis/_ide\.wsdata
+12:49:47 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\prana\AppData\Local\Temp\rigel_lopper_Pranav_J4235772114869058324 -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:49:47 INFO  : Embedded Template List generated successfully
+12:50:12 INFO  : Using sdt generation script from D:\Vivado\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+12:50:12 INFO  : cmd.exe, /C, sdtgen.bat D:\Vivado\2025.2\Vitis\vitis-server\scripts\platformutil.tcl D:\yolov5s_conv\design_1_wrapper.xsa D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt
+12:50:16 INFO  : INFO: D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt exists. Files will be overwritten
+12:50:16 INFO  : -xsa D:\yolov5s_conv\design_1_wrapper.xsa
+12:50:16 INFO  : -dir D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt
+12:50:16 INFO  : -board_dts 
+12:50:16 INFO  : -include_dts 
+12:50:16 INFO  : -repo D:/Vivado/2025.2/Vitis/data/system-device-tree-xlnx
+12:50:16 INFO  : -zocl disable
+12:50:16 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (D:/Vivado/2025.2/Vitis/data/embeddedsw) loading 0 seconds
+12:50:16 INFO  : SDT generated successfully
+12:50:16 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt\system-top.dts
+12:50:16 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt\system-top.dts
+12:50:18 INFO  : CPU List generated successfully
+12:50:23 INFO  : Platform cnn_platform creation started.
+12:50:23 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts
+12:50:23 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts
+12:50:24 INFO  : CPU List generated successfully
+12:50:24 INFO  : SDT generated successfully.
+12:50:24 INFO  : ZYNQ: Using the QEMU args from install at  : D:\Vivado\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt
+12:50:24 INFO  : ZYNQ: Using the QEMU args from install at  : D:\Vivado\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+12:50:24 INFO  : ZYNQ: Using the QEMU args from install at  : D:\Vivado\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+12:50:24 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -t empty_application -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:50:24 INFO  : cmd.exe, /C, empyro.bat create_bsp -w D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -t empty_application -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:50:24 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -t zynq_fsbl -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:50:24 INFO  : cmd.exe, /C, empyro.bat create_bsp -w D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -t zynq_fsbl -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:50:37 INFO  : [INFO]: Starting domain creation
+12:50:37 INFO  : [INFO]: Found HLS driver within SDT, copying the sources
+12:50:37 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+12:50:37 INFO  : [INFO]: Generating required metadata from domain specific DT
+12:50:37 INFO  : [INFO]: Successfully created Domain at D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:50:37 INFO  : Successfully Generated Domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:50:37 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+12:50:38 INFO  : [INFO]: Starting domain creation
+12:50:38 INFO  : [INFO]: Found HLS driver within SDT, copying the sources
+12:50:38 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+12:50:38 INFO  : [INFO]: Generating required metadata from domain specific DT
+12:50:38 INFO  : [INFO]: Successfully created Domain at D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:50:38 INFO  : Successfully Generated Domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:50:38 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -t zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:50:38 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:50:40 INFO  : Successfully validated template zynq_fsbl
+12:50:40 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -t zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:50:42 INFO  : [INFO]: Generating Linker script for zynq_fsbl
+12:50:42 INFO  : [INFO]: Successfully Created Application sources at D:/yolov5s_conv/vitis/cnn_platform/zynq_fsbl
+12:50:42 INFO  : Successfully created Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+12:50:42 INFO  : Platform FSBL Boot domain added successfully.
+12:50:42 INFO  : created .gitignore file for the project D:\yolov5s_conv\vitis\cnn_platform
+12:50:42 INFO  : Platform creation finished successfully.
+12:50:42 INFO  : Platform Quick Build initiated.
+12:50:42 INFO  : Generating Export directory
+12:50:42 INFO  : Generated platform metadata for creating application(s) based on platform cnn_platform.
+12:51:00 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t empty_application -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:51:01 INFO  : Successfully validated template empty_application
+12:51:08 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir D:\yolov5s_conv\vitis\cnn_app\src -t empty_application -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -n cnn_app -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:51:08 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t empty_application -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:51:08 INFO  : Successfully validated template empty_application
+12:51:08 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir D:\yolov5s_conv\vitis\cnn_app\src -t empty_application -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -n cnn_app -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:51:11 INFO  : [INFO]: Generating Linker script for empty_application
+12:51:11 INFO  : [INFO]: Successfully Created Application sources at D:/yolov5s_conv/vitis/cnn_app/src
+12:51:11 INFO  : Successfully created Application D:\yolov5s_conv\vitis\cnn_app\src
+12:51:11 INFO  : created .gitignore file for the project D:\yolov5s_conv\vitis\cnn_app
+12:51:11 INFO  : The hardware specification used by project 'D:\yolov5s_conv\vitis\cnn_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+12:51:11 INFO  : The updated bitstream files are copied from platform to folder 'D:\yolov5s_conv\vitis\cnn_app\_ide\bitstream' in project 'D:\yolov5s_conv\vitis\cnn_app'.
+12:51:11 INFO  : The updated ps init files are copied from platform to folder 'D:\yolov5s_conv\vitis\cnn_app\_ide\psinit' in project 'D:\yolov5s_conv\vitis\cnn_app'.
+12:53:06 INFO  : cmd.exe, /C, lopper.bat -O  . D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+12:53:07 INFO  : Supported Library List generated.
+12:53:29 INFO  : Updating Examples in Driver D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:53:29 INFO  : cmd.exe, /C, empyro.bat load_example -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:53:33 INFO  : [INFO]: Loading Valid Example names for BSP
+12:53:33 INFO  : -- The C compiler identification is GNU 13.3.0
+12:53:33 INFO  : -- The CXX compiler identification is GNU 13.3.0
+12:53:33 INFO  : -- Detecting C compiler ABI info
+12:53:33 INFO  : -- Detecting C compiler ABI info - done
+12:53:33 INFO  : -- Check for working C compiler: D:/Vivado/2025.2/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - skipped
+12:53:33 INFO  : -- Detecting C compile features
+12:53:33 INFO  : -- Detecting C compile features - done
+12:53:33 INFO  : -- Detecting CXX compiler ABI info
+12:53:33 INFO  : -- Detecting CXX compiler ABI info - done
+12:53:33 INFO  : -- Check for working CXX compiler: D:/Vivado/2025.2/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - skipped
+12:53:33 INFO  : -- Detecting CXX compile features
+12:53:33 INFO  : -- Detecting CXX compile features - done
+12:53:33 INFO  : -- Configuring done
+12:53:33 INFO  : -- Generating done
+12:53:33 INFO  : -- Build files have been written to: D:/yolov5s_conv/vitis/cnn_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/exmetadata
+12:53:33 INFO  : [INFO]: Gathering examples metadata
+12:53:33 INFO  : [INFO]: Successfully loaded all the valid examples for the BSP
+12:53:33 INFO  : Updated Examples in Driver
+12:54:51 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+12:54:51 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+12:54:51 INFO  : [INFO]: Retargeting app
+12:54:51 INFO  : [INFO]: Updating link libraries based on new domain
+12:54:51 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+12:54:59 INFO  : BSP build will be initiated for Domain zynq_fsbl
+12:54:59 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+12:54:59 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:54:59 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:54:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:54:59 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:54:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:54:59 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:55:00 INFO  : Domain reconfigured successfully
+12:55:00 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:55:00 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:55:00 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:55:00 INFO  : Domain reconfigured successfully
+12:55:00 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:55:00 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:55:00 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:55:07 INFO  : Domain build successfully
+12:55:07 INFO  : Domain build successfully
+12:55:07 INFO  : Generating Boot ELFs
+12:55:07 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:55:07 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:55:08 INFO  : [INFO]: Retargeting app
+12:55:08 INFO  : [INFO]: Updating link libraries based on new domain
+12:55:08 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+12:55:08 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:55:08 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:55:11 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:55:11 INFO  : Generating Export directory
+12:55:11 INFO  : Platform Build Finished successfully.
+12:56:10 INFO  : BSP build will be initiated for Domain zynq_fsbl
+12:56:10 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+12:56:10 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:56:10 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:56:10 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:56:10 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:56:10 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:56:10 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:56:10 INFO  : Domain reconfigured successfully
+12:56:10 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:56:10 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:56:10 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+12:56:10 INFO  : Domain reconfigured successfully
+12:56:10 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:56:10 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:56:10 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+12:56:11 INFO  : Domain build successfully
+12:56:11 INFO  : Domain build successfully
+12:56:11 INFO  : Generating Boot ELFs
+12:56:11 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:56:11 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:56:12 INFO  : [INFO]: Retargeting app
+12:56:12 INFO  : [INFO]: Updating link libraries based on new domain
+12:56:12 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+12:56:12 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:56:12 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:56:13 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+12:56:13 INFO  : Generating Export directory
+12:56:13 INFO  : Platform Build Finished successfully.
+12:56:13 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+12:56:13 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+12:56:14 INFO  : [INFO]: Retargeting app
+12:56:14 INFO  : [INFO]: Updating link libraries based on new domain
+12:56:14 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+12:56:14 INFO  : Initiating build for the cnn_app component.
+12:56:14 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+12:56:14 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+12:56:16 ERROR : cnn_app build failed. 
+13:06:36 INFO  : Using sdt generation script from D:\Vivado\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+13:06:36 INFO  : cmd.exe, /C, sdtgen.bat D:\Vivado\2025.2\Vitis\vitis-server\scripts\platformutil.tcl D:\yolov5s_conv\vitis\design_fixed.xsa D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_fixed\hw\sdt
+13:06:41 INFO  : INFO: D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_fixed\hw\sdt exists. Files will be overwritten
+13:06:41 INFO  : -xsa D:\yolov5s_conv\vitis\design_fixed.xsa
+13:06:41 INFO  : -dir D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_fixed\hw\sdt
+13:06:41 INFO  : -board_dts 
+13:06:41 INFO  : -include_dts 
+13:06:41 INFO  : -repo D:/Vivado/2025.2/Vitis/data/system-device-tree-xlnx
+13:06:41 INFO  : -zocl disable
+13:06:41 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (D:/Vivado/2025.2/Vitis/data/embeddedsw) loading 0 seconds
+13:06:41 INFO  : SDT generated successfully
+13:06:41 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_fixed\hw\sdt\system-top.dts
+13:06:41 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\.rigel_lopper_temp_platform\design_fixed\hw\sdt\system-top.dts
+13:06:42 INFO  : CPU List generated successfully
+13:06:45 INFO  : Platform cnn_platform creation started.
+13:06:45 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts
+13:06:45 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts
+13:06:46 INFO  : CPU List generated successfully
+13:06:46 INFO  : SDT generated successfully.
+13:06:46 INFO  : ZYNQ: Using the QEMU args from install at  : D:\Vivado\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt
+13:06:46 INFO  : ZYNQ: Using the QEMU args from install at  : D:\Vivado\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+13:06:46 INFO  : ZYNQ: Using the QEMU args from install at  : D:\Vivado\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+13:06:46 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -t zynq_fsbl -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:06:46 INFO  : cmd.exe, /C, empyro.bat create_bsp -w D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -t zynq_fsbl -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:06:46 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -t empty_application -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:06:46 INFO  : cmd.exe, /C, empyro.bat create_bsp -w D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -t empty_application -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:06:58 INFO  : [INFO]: Starting domain creation
+13:06:58 INFO  : [INFO]: Found HLS driver within SDT, copying the sources
+13:06:58 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:06:58 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:06:58 INFO  : [INFO]: Successfully created Domain at D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:06:58 INFO  : Successfully Generated Domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:06:58 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+13:06:59 INFO  : [INFO]: Starting domain creation
+13:06:59 INFO  : [INFO]: Found HLS driver within SDT, copying the sources
+13:06:59 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:06:59 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:06:59 INFO  : [INFO]: Successfully created Domain at D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+13:06:59 INFO  : Successfully Generated Domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+13:06:59 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -t zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:06:59 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:07:01 INFO  : Successfully validated template zynq_fsbl
+13:07:01 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -t zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:07:03 INFO  : [INFO]: Generating Linker script for zynq_fsbl
+13:07:03 INFO  : [INFO]: Successfully Created Application sources at D:/yolov5s_conv/vitis/cnn_platform/zynq_fsbl
+13:07:03 INFO  : Successfully created Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+13:07:03 INFO  : Platform FSBL Boot domain added successfully.
+13:07:03 INFO  : created .gitignore file for the project D:\yolov5s_conv\vitis\cnn_platform
+13:07:03 INFO  : Platform creation finished successfully.
+13:07:03 INFO  : Platform Quick Build initiated.
+13:07:03 INFO  : Generating Export directory
+13:07:03 INFO  : Generated platform metadata for creating application(s) based on platform cnn_platform.
+13:07:18 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t empty_application -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:07:19 INFO  : Successfully validated template empty_application
+13:07:24 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir D:\yolov5s_conv\vitis\cnn_app\src -t empty_application -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -n cnn_app -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:07:24 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t empty_application -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:07:25 INFO  : Successfully validated template empty_application
+13:07:25 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir D:\yolov5s_conv\vitis\cnn_app\src -t empty_application -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -n cnn_app -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:07:27 INFO  : [INFO]: Generating Linker script for empty_application
+13:07:27 INFO  : [INFO]: Successfully Created Application sources at D:/yolov5s_conv/vitis/cnn_app/src
+13:07:27 INFO  : Successfully created Application D:\yolov5s_conv\vitis\cnn_app\src
+13:07:27 INFO  : created .gitignore file for the project D:\yolov5s_conv\vitis\cnn_app
+13:07:27 INFO  : The hardware specification used by project 'D:\yolov5s_conv\vitis\cnn_app' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:07:27 INFO  : The updated bitstream files are copied from platform to folder 'D:\yolov5s_conv\vitis\cnn_app\_ide\bitstream' in project 'D:\yolov5s_conv\vitis\cnn_app'.
+13:07:27 INFO  : The updated ps init files are copied from platform to folder 'D:\yolov5s_conv\vitis\cnn_app\_ide\psinit' in project 'D:\yolov5s_conv\vitis\cnn_app'.
+13:13:42 INFO  : cmd.exe, /C, lopper.bat -O  . D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+13:13:43 INFO  : Supported Library List generated.
+14:11:03 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+14:11:03 INFO  : BSP build will be initiated for Domain zynq_fsbl
+14:11:03 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:11:03 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:11:03 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:11:03 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:11:03 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:11:03 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:11:04 INFO  : Domain reconfigured successfully
+14:11:04 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:11:04 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:11:04 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:11:04 INFO  : Domain reconfigured successfully
+14:11:04 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:11:04 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:11:04 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:11:10 INFO  : Domain build successfully
+14:11:10 INFO  : Domain build successfully
+14:11:10 INFO  : Generating Boot ELFs
+14:11:10 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:11:10 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:11:11 INFO  : [INFO]: Retargeting app
+14:11:11 INFO  : [INFO]: Updating link libraries based on new domain
+14:11:11 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+14:11:11 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:11:11 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:11:14 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:11:14 INFO  : Generating Export directory
+14:11:14 INFO  : Platform Build Finished successfully.
+14:11:14 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+14:11:14 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+14:11:14 INFO  : [INFO]: Retargeting app
+14:11:14 INFO  : [INFO]: Updating link libraries based on new domain
+14:11:14 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+14:11:14 INFO  : Initiating build for the cnn_app component.
+14:11:14 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+14:11:14 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+14:11:16 ERROR : cnn_app build failed. 
+14:18:12 INFO  : BSP build will be initiated for Domain zynq_fsbl
+14:18:12 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+14:18:12 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:18:12 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:18:12 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:18:12 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:18:12 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:18:12 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:18:12 INFO  : Domain reconfigured successfully
+14:18:12 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:18:12 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:18:12 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:18:13 INFO  : Domain reconfigured successfully
+14:18:13 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:18:13 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:18:13 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:18:13 INFO  : Domain build successfully
+14:18:13 INFO  : Domain build successfully
+14:18:13 INFO  : Generating Boot ELFs
+14:18:13 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:18:13 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:18:14 INFO  : [INFO]: Retargeting app
+14:18:14 INFO  : [INFO]: Updating link libraries based on new domain
+14:18:14 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+14:18:14 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:18:14 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:18:16 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:18:16 INFO  : Generating Export directory
+14:18:16 INFO  : Platform Build Finished successfully.
+14:18:16 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+14:18:16 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+14:18:16 INFO  : [INFO]: Retargeting app
+14:18:16 INFO  : [INFO]: Updating link libraries based on new domain
+14:18:16 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+14:18:16 INFO  : Initiating build for the cnn_app component.
+14:18:16 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+14:18:16 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+14:18:17 ERROR : cnn_app build failed. 
+14:21:52 INFO  : BSP build will be initiated for Domain zynq_fsbl
+14:21:52 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:21:52 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:21:52 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:21:52 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+14:21:52 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:21:52 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:21:52 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:21:53 INFO  : Domain reconfigured successfully
+14:21:53 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:21:53 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:21:53 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:21:53 INFO  : Domain reconfigured successfully
+14:21:53 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:21:53 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:21:53 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+14:21:53 INFO  : Domain build successfully
+14:21:53 INFO  : Domain build successfully
+14:21:53 INFO  : Generating Boot ELFs
+14:21:53 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:21:53 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:21:54 INFO  : [INFO]: Retargeting app
+14:21:54 INFO  : [INFO]: Updating link libraries based on new domain
+14:21:54 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+14:21:54 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:21:54 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:21:55 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+14:21:55 INFO  : Generating Export directory
+14:21:56 INFO  : Platform Build Finished successfully.
+14:21:56 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+14:21:56 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+14:21:56 INFO  : [INFO]: Retargeting app
+14:21:56 INFO  : [INFO]: Updating link libraries based on new domain
+14:21:56 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+14:21:56 INFO  : Initiating build for the cnn_app component.
+14:21:56 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+14:21:56 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+14:23:08 INFO  : Connection to XSDB Server established.
+14:23:08 INFO  : It has taken  1secs.
+14:23:08 INFO  : Done
+14:30:47 INFO  : connection terminated
+14:30:47 INFO  : connection terminated
+14:30:47 INFO  : scheduling shutdown timer for 2 seconds ...
+14:30:49 INFO  : Terminating Vitis C++ Server
+14:30:49 INFO  : Vitis C++ Server terminated
+14:31:35 INFO  : updated workspace path: D:\yolov5s_conv\vitis
+14:31:35 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\prana\AppData\Local\Temp\rigel_lopper_Pranav_J1878464363754023122 -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+14:31:35 INFO  : Embedded Template List generated successfully
+14:31:58 INFO  : The updated bitstream files are copied from platform to folder 'D:\yolov5s_conv\vitis\cnn_app\_ide\bitstream' in project 'D:\yolov5s_conv\vitis\cnn_app'.
+14:31:58 INFO  : The updated ps init files are copied from platform to folder 'D:\yolov5s_conv\vitis\cnn_app\_ide\psinit' in project 'D:\yolov5s_conv\vitis\cnn_app'.
+14:32:07 INFO  : XSDB server has started successfully from frontend.
+14:32:07 INFO  : It has taken  2secs.
+14:32:08 INFO  : Connection to XSDB Server established.
+14:32:08 INFO  : It has taken  1secs.
+14:32:08 INFO  : Done
+14:32:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:32:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:32:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:32:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+14:32:19 INFO  : Device configured successfully with "D:/yolov5s_conv/vitis/cnn_app/_ide/bitstream/design_fixed.bit"
+14:53:56 INFO  : cmd.exe, /C, lopper.bat -O  . D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+14:53:57 INFO  : Supported Library List generated.
+15:03:32 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:03:32 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:03:32 INFO  : [INFO]: Retargeting app
+15:03:32 INFO  : [INFO]: Updating link libraries based on new domain
+15:03:32 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:03:32 INFO  : Initiating build for the cnn_app component.
+15:03:32 INFO  : Command: cmd.exe /C set CC= && set CXX= && cmake --build ./ --target clean --verbose
+15:03:35 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:03:35 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:03:35 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:03:35 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:03:35 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:03:35 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:03:35 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:03:35 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:03:35 INFO  : Domain reconfigured successfully
+15:03:35 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:03:35 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:03:35 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:03:35 INFO  : Domain reconfigured successfully
+15:03:35 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:03:35 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:03:35 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:03:36 INFO  : Domain build successfully
+15:03:36 INFO  : Domain build successfully
+15:03:36 INFO  : Generating Boot ELFs
+15:03:36 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:03:36 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:03:37 INFO  : [INFO]: Retargeting app
+15:03:37 INFO  : [INFO]: Updating link libraries based on new domain
+15:03:37 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:03:37 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:03:37 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:03:38 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:03:38 INFO  : Generating Export directory
+15:03:38 INFO  : Platform Build Finished successfully.
+15:03:38 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:03:38 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:03:39 INFO  : [INFO]: Retargeting app
+15:03:39 INFO  : [INFO]: Updating link libraries based on new domain
+15:03:39 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:03:39 INFO  : Initiating build for the cnn_app component.
+15:03:39 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:03:39 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:03:40 ERROR : cnn_app build failed. 
+15:05:01 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:05:01 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:05:01 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:05:01 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:05:01 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:05:01 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:05:01 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:05:01 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:05:01 INFO  : Domain reconfigured successfully
+15:05:01 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:05:01 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:05:01 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:05:01 INFO  : Domain reconfigured successfully
+15:05:01 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:05:01 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:05:01 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:05:02 INFO  : Domain build successfully
+15:05:02 INFO  : Domain build successfully
+15:05:02 INFO  : Generating Boot ELFs
+15:05:02 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:05:02 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:05:03 INFO  : [INFO]: Retargeting app
+15:05:03 INFO  : [INFO]: Updating link libraries based on new domain
+15:05:03 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:05:03 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:05:03 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:05:04 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:05:04 INFO  : Generating Export directory
+15:05:04 INFO  : Platform Build Finished successfully.
+15:05:04 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:05:04 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:05:05 INFO  : [INFO]: Retargeting app
+15:05:05 INFO  : [INFO]: Updating link libraries based on new domain
+15:05:05 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:05:05 INFO  : Initiating build for the cnn_app component.
+15:05:05 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:05:05 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:05:06 ERROR : cnn_app build failed. 
+15:06:50 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:06:50 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:06:50 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:06:50 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:06:50 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:06:50 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:06:50 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:06:50 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:06:51 INFO  : Domain reconfigured successfully
+15:06:51 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:06:51 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:06:51 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:06:51 INFO  : Domain reconfigured successfully
+15:06:51 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:06:51 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:06:51 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:06:51 INFO  : Domain build successfully
+15:06:51 INFO  : Domain build successfully
+15:06:51 INFO  : Generating Boot ELFs
+15:06:51 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:06:51 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:06:52 INFO  : [INFO]: Retargeting app
+15:06:52 INFO  : [INFO]: Updating link libraries based on new domain
+15:06:52 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:06:52 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:06:52 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:06:53 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:06:53 INFO  : Generating Export directory
+15:06:54 INFO  : Platform Build Finished successfully.
+15:06:54 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:06:54 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:06:54 INFO  : [INFO]: Retargeting app
+15:06:54 INFO  : [INFO]: Updating link libraries based on new domain
+15:06:54 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:06:54 INFO  : Initiating build for the cnn_app component.
+15:06:54 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:06:54 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:06:55 ERROR : cnn_app build failed. 
+15:10:12 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:10:12 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:10:12 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:10:12 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:10:12 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:10:12 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:10:12 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:10:12 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:10:12 INFO  : Domain reconfigured successfully
+15:10:12 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:10:12 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:10:12 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:10:12 INFO  : Domain reconfigured successfully
+15:10:12 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:10:12 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:10:12 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:10:13 INFO  : Domain build successfully
+15:10:13 INFO  : Domain build successfully
+15:10:13 INFO  : Generating Boot ELFs
+15:10:13 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:10:13 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:10:14 INFO  : [INFO]: Retargeting app
+15:10:14 INFO  : [INFO]: Updating link libraries based on new domain
+15:10:14 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:10:14 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:10:14 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:10:15 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:10:15 INFO  : Generating Export directory
+15:10:15 INFO  : Platform Build Finished successfully.
+15:10:15 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:10:15 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:10:16 INFO  : [INFO]: Retargeting app
+15:10:16 INFO  : [INFO]: Updating link libraries based on new domain
+15:10:16 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:10:16 INFO  : Initiating build for the cnn_app component.
+15:10:16 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:10:16 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:10:17 ERROR : cnn_app build failed. 
+15:13:05 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:13:05 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:13:05 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:13:05 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:13:05 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:13:05 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:13:05 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:13:05 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:13:06 INFO  : Domain reconfigured successfully
+15:13:06 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:13:06 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:13:06 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:13:06 INFO  : Domain reconfigured successfully
+15:13:06 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:13:06 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:13:06 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:13:07 INFO  : Domain build successfully
+15:13:07 INFO  : Domain build successfully
+15:13:07 INFO  : Generating Boot ELFs
+15:13:07 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:13:07 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:13:07 INFO  : [INFO]: Retargeting app
+15:13:07 INFO  : [INFO]: Updating link libraries based on new domain
+15:13:07 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:13:07 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:13:07 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:13:09 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:13:09 INFO  : Generating Export directory
+15:13:09 INFO  : Platform Build Finished successfully.
+15:13:09 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:13:09 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:13:09 INFO  : [INFO]: Retargeting app
+15:13:09 INFO  : [INFO]: Updating link libraries based on new domain
+15:13:09 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:13:09 INFO  : Initiating build for the cnn_app component.
+15:13:09 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:13:09 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:13:10 ERROR : cnn_app build failed. 
+15:19:07 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:19:07 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:19:07 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:19:07 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:19:07 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:19:07 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:19:07 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:19:07 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:19:08 INFO  : Domain reconfigured successfully
+15:19:08 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:19:08 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:19:08 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:19:08 INFO  : Domain reconfigured successfully
+15:19:08 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:19:08 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:19:08 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:19:09 INFO  : Domain build successfully
+15:19:09 INFO  : Domain build successfully
+15:19:09 INFO  : Generating Boot ELFs
+15:19:09 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:19:09 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:19:09 INFO  : [INFO]: Retargeting app
+15:19:09 INFO  : [INFO]: Updating link libraries based on new domain
+15:19:09 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:19:09 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:19:09 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:19:11 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:19:11 INFO  : Generating Export directory
+15:19:11 INFO  : Platform Build Finished successfully.
+15:19:11 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:19:11 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:19:11 INFO  : [INFO]: Retargeting app
+15:19:11 INFO  : [INFO]: Updating link libraries based on new domain
+15:19:11 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:19:11 INFO  : Initiating build for the cnn_app component.
+15:19:11 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:19:11 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:19:12 ERROR : cnn_app build failed. 
+15:32:32 INFO  : HW XSA update started
+15:32:32 INFO  : Using sdt generation script from D:\Vivado\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+15:32:32 INFO  : cmd.exe, /C, sdtgen.bat D:\Vivado\2025.2\Vitis\vitis-server\scripts\platformutil.tcl D:\yolov5s_conv\vitis\design_fixed.xsa D:\yolov5s_conv\vitis\cnn_platform\hw\sdt
+15:32:38 INFO  : INFO: D:\yolov5s_conv\vitis\cnn_platform\hw\sdt exists. Files will be overwritten
+15:32:38 INFO  : -xsa D:\yolov5s_conv\vitis\design_fixed.xsa
+15:32:38 INFO  : -dir D:\yolov5s_conv\vitis\cnn_platform\hw\sdt
+15:32:38 INFO  : -board_dts 
+15:32:38 INFO  : -include_dts 
+15:32:38 INFO  : -repo D:/Vivado/2025.2/Vitis/data/system-device-tree-xlnx
+15:32:38 INFO  : -zocl disable
+15:32:38 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (D:/Vivado/2025.2/Vitis/data/embeddedsw) loading 0 seconds
+15:32:38 INFO  : SDT generated successfully
+15:32:38 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:32:38 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:32:38 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:32:39 INFO  : Domain reconfigured successfully
+15:32:39 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+15:32:39 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+15:32:57 INFO  : [INFO]: Regenerating bsp
+15:32:57 INFO  : [INFO]: Starting domain creation
+15:32:57 INFO  : [INFO]: Found HLS driver within SDT, copying the sources
+15:32:57 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+15:32:57 INFO  : [INFO]: Generating required metadata from domain specific DT
+15:32:57 INFO  : [INFO]: Successfully created Domain at D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:32:57 INFO  : -- Configuring done
+15:32:57 INFO  : -- Generating done
+15:32:57 INFO  : CMake Warning:
+15:32:57 INFO  :   Manually-specified variables were not used by the project:
+15:32:57 INFO  : 
+15:32:57 INFO  :     CMAKE_TOOLCHAIN_FILE
+15:32:57 INFO  : 
+15:32:57 INFO  : 
+15:32:57 INFO  : -- Build files have been written to: D:/yolov5s_conv/vitis/cnn_platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+15:32:57 INFO  : [INFO]: Regenerated BSP successfully.
+15:32:57 INFO  : BSP regenerated successfully
+15:32:57 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:32:57 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:32:57 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:32:58 INFO  : Domain reconfigured successfully
+15:32:58 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+15:32:58 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+15:33:09 INFO  : [INFO]: Regenerating bsp
+15:33:09 INFO  : [INFO]: Starting domain creation
+15:33:09 INFO  : [INFO]: Found HLS driver within SDT, copying the sources
+15:33:09 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+15:33:09 INFO  : [INFO]: Generating required metadata from domain specific DT
+15:33:09 INFO  : [INFO]: Successfully created Domain at D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:33:09 INFO  : -- Configuring done
+15:33:09 INFO  : -- Generating done
+15:33:09 INFO  : CMake Warning:
+15:33:09 INFO  :   Manually-specified variables were not used by the project:
+15:33:09 INFO  : 
+15:33:09 INFO  :     CMAKE_TOOLCHAIN_FILE
+15:33:09 INFO  : 
+15:33:09 INFO  : 
+15:33:09 INFO  : -- Build files have been written to: D:/yolov5s_conv/vitis/cnn_platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+15:33:09 INFO  : [INFO]: Regenerated BSP successfully.
+15:33:09 INFO  : BSP regenerated successfully
+15:33:09 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts
+15:33:09 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O D:\yolov5s_conv\vitis\.rigel_lopper -i lop-cpu-oslist.dts D:\yolov5s_conv\vitis\cnn_platform\hw\sdt\system-top.dts
+15:33:11 INFO  : CPU List generated successfully
+15:33:11 INFO  : Hardware XSA update finished successfully
+15:34:33 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:34:33 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:34:33 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:33 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:33 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:33 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:33 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:33 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:34 INFO  : Domain reconfigured successfully
+15:34:34 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:34 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:34 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:34 INFO  : Domain reconfigured successfully
+15:34:34 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:34 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:34 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:40 INFO  : Domain build successfully
+15:34:41 INFO  : Domain build successfully
+15:34:41 INFO  : Generating Boot ELFs
+15:34:41 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:41 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:41 INFO  : [INFO]: Retargeting app
+15:34:41 INFO  : [INFO]: Updating link libraries based on new domain
+15:34:41 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:34:41 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:41 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:43 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:43 INFO  : Generating Export directory
+15:34:43 INFO  : Platform Build Finished successfully.
+15:34:50 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:34:50 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:34:50 INFO  : [INFO]: Retargeting app
+15:34:50 INFO  : [INFO]: Updating link libraries based on new domain
+15:34:50 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:34:50 INFO  : Initiating build for the cnn_app component.
+15:34:50 INFO  : Command: cmd.exe /C set CC= && set CXX= && cmake --build ./ --target clean --verbose
+15:34:52 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:34:52 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:52 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:52 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:34:52 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:52 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:52 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:52 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:52 INFO  : Domain reconfigured successfully
+15:34:52 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:52 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:52 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:34:52 INFO  : Domain reconfigured successfully
+15:34:52 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:52 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:52 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:34:53 INFO  : Domain build successfully
+15:34:53 INFO  : Domain build successfully
+15:34:53 INFO  : Generating Boot ELFs
+15:34:53 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:53 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:54 INFO  : [INFO]: Retargeting app
+15:34:54 INFO  : [INFO]: Updating link libraries based on new domain
+15:34:54 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:34:54 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:54 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:55 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:34:55 INFO  : Generating Export directory
+15:34:56 INFO  : Platform Build Finished successfully.
+15:34:56 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:34:56 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:34:56 INFO  : [INFO]: Retargeting app
+15:34:56 INFO  : [INFO]: Updating link libraries based on new domain
+15:34:56 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:34:56 INFO  : Initiating build for the cnn_app component.
+15:34:56 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:34:56 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:34:57 ERROR : cnn_app build failed. 
+15:39:47 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:39:47 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:39:47 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:39:47 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:39:47 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:39:47 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:39:47 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:39:47 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:39:47 INFO  : Domain reconfigured successfully
+15:39:47 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:39:47 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:39:47 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:39:48 INFO  : Domain reconfigured successfully
+15:39:48 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:39:48 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:39:48 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:39:48 INFO  : Domain build successfully
+15:39:49 INFO  : Domain build successfully
+15:39:49 INFO  : Generating Boot ELFs
+15:39:49 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:39:49 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:39:49 INFO  : [INFO]: Retargeting app
+15:39:49 INFO  : [INFO]: Updating link libraries based on new domain
+15:39:49 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:39:49 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:39:49 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:39:51 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:39:51 INFO  : Generating Export directory
+15:39:51 INFO  : Platform Build Finished successfully.
+15:39:51 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:39:51 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:39:52 INFO  : [INFO]: Retargeting app
+15:39:52 INFO  : [INFO]: Updating link libraries based on new domain
+15:39:52 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:39:52 INFO  : Initiating build for the cnn_app component.
+15:39:52 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:39:52 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:39:53 ERROR : cnn_app build failed. 
+15:41:42 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:41:42 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:41:42 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:41:42 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:41:42 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:41:42 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:41:42 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:41:42 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:41:42 INFO  : Domain reconfigured successfully
+15:41:42 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:41:42 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:41:42 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:41:42 INFO  : Domain reconfigured successfully
+15:41:42 INFO  : Generating BSP for the domain D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:41:42 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:41:42 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+15:41:43 INFO  : Domain build successfully
+15:41:43 INFO  : Domain build successfully
+15:41:43 INFO  : Generating Boot ELFs
+15:41:43 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:41:43 INFO  : cmd.exe, /C, empyro.bat retarget_app -s D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl -d D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp -b D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:41:44 INFO  : [INFO]: Retargeting app
+15:41:44 INFO  : [INFO]: Updating link libraries based on new domain
+15:41:44 INFO  : Successfully retargeted Application D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl
+15:41:44 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:41:44 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl --build_dir D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:41:45 INFO  : Successfully building the baremetal applicationD:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\build
+15:41:45 INFO  : Generating Export directory
+15:41:46 INFO  : Platform Build Finished successfully.
+15:41:46 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:41:46 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\yolov5s_conv\vitis\cnn_app\src -d D:\yolov5s_conv\vitis\cnn_platform\export\cnn_platform\sw\standalone_ps7_cortexa9_0 -b d:\yolov5s_conv\vitis\cnn_app\build
+15:41:46 INFO  : [INFO]: Retargeting app
+15:41:46 INFO  : [INFO]: Updating link libraries based on new domain
+15:41:46 INFO  : Successfully retargeted Application d:\yolov5s_conv\vitis\cnn_app\src
+15:41:46 INFO  : Initiating build for the cnn_app component.
+15:41:46 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:41:46 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\yolov5s_conv\vitis\cnn_app\src -b d:\yolov5s_conv\vitis\cnn_app\build
+15:43:34 INFO  : connect -url tcp:127.0.0.1:3121
+15:43:35 INFO  : bpremove -all
+15:43:36 INFO  : Context for 'APU' is selected.
+15:43:36 INFO  : System reset is completed.
+15:43:39 INFO  : 'after 3000' command is executed.
+15:43:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+15:43:41 INFO  : Device configured successfully with "D:/yolov5s_conv/vitis/cnn_app/_ide/bitstream/design_fixed.bit"
+15:43:41 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-4ba00477-0"}
+15:43:41 INFO  : loadhw -hw D:/yolov5s_conv/vitis/cnn_platform/export/cnn_platform/hw/design_fixed.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:43:41 INFO  : configparams force-mem-access 1
+15:43:41 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-4ba00477-0"}
+15:43:41 INFO  : source D:/yolov5s_conv/vitis/cnn_app/_ide/psinit/conv2d_layer.tcl
+15:43:41 ERROR : invalid command name "ps7_init"
+15:43:41 ERROR : Failed to initialize the hardware. invalid command name "ps7_init"
+15:46:18 INFO  : connect -url tcp:127.0.0.1:3121
+15:46:18 INFO  : bpremove -all
+15:46:18 INFO  : Context for 'APU' is selected.
+15:46:18 INFO  : System reset is completed.
+15:46:21 INFO  : 'after 3000' command is executed.
+15:46:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+15:46:23 INFO  : Device configured successfully with "D:/yolov5s_conv/vitis/cnn_app/_ide/bitstream/design_fixed.bit"
+15:46:23 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-4ba00477-0"}
+15:46:23 INFO  : loadhw -hw D:/yolov5s_conv/vitis/cnn_platform/export/cnn_platform/hw/design_fixed.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:46:23 INFO  : configparams force-mem-access 1
+15:46:23 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-4ba00477-0"}
+15:46:23 INFO  : source D:/yolov5s_conv/vitis/cnn_app/_ide/psinit/conv2d_layer.tcl
+15:46:23 ERROR : invalid command name "ps7_init"
+15:46:23 ERROR : Failed to initialize the hardware. invalid command name "ps7_init"
+15:46:32 INFO  : connect -url tcp:127.0.0.1:3121
+15:46:32 INFO  : bpremove -all
+15:46:32 INFO  : Context for 'APU' is selected.
+15:46:32 INFO  : System reset is completed.
+15:46:35 INFO  : 'after 3000' command is executed.
+15:46:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+15:46:37 INFO  : Device configured successfully with "D:/yolov5s_conv/vitis/cnn_app/_ide/bitstream/design_fixed.bit"
+15:46:38 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-4ba00477-0"}
+15:46:38 INFO  : loadhw -hw D:/yolov5s_conv/vitis/cnn_platform/export/cnn_platform/hw/design_fixed.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:46:38 INFO  : configparams force-mem-access 1
+15:46:38 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-4ba00477-0"}
+15:46:38 INFO  : source D:/yolov5s_conv/vitis/cnn_app/_ide/psinit/conv2d_layer.tcl
+15:46:38 ERROR : invalid command name "ps7_init"
+15:46:38 ERROR : Failed to initialize the hardware. invalid command name "ps7_init"
+15:46:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:07 INFO  : Connected through redirection to target on host '127.0.0.1' and port '3121'.
+15:50:07 INFO  : Connected through redirection to target on host '127.0.0.1' and port '3121'.
+15:50:07 INFO  : Jtag cable 'Xilinx HW-FTDI-TEST FT2232H 1234-tulA' is selected.
+15:50:07 INFO  : 'jtag frequency' command is executed.
+15:50:07 INFO  : 'jtag frequency -list' command is executed.
+15:50:12 INFO  : Testing the connection for 127.0.0.1
+15:51:00 INFO  : Testing the connection for 127.0.0.1
+15:51:37 INFO  : Symbol server port updated in peer with Id PYNQ-Z2
+15:51:37 INFO  : connect -path [list tcp::1534 tcp:127.0.0.1:3121]
+15:51:37 INFO  : bpremove -all
+15:51:37 INFO  : Context for 'APU' is selected.
+15:51:37 INFO  : System reset is completed.
+15:51:40 INFO  : 'after 3000' command is executed.
+15:51:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && level==0 && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-23727093-0"}' command is executed.
+15:51:42 INFO  : Device configured successfully with "D:/yolov5s_conv/vitis/cnn_app/_ide/bitstream/design_fixed.bit"
+15:51:42 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-4ba00477-0"}
+15:51:42 INFO  : loadhw -hw D:/yolov5s_conv/vitis/cnn_platform/export/cnn_platform/hw/design_fixed.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+15:51:42 INFO  : configparams force-mem-access 1
+15:51:42 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-FTDI-TEST FT2232H 1234-tulA" && jtag_device_ctx=="jsn-HW-FTDI-TEST FT2232H-1234-tulA-4ba00477-0"}
+15:51:42 INFO  : source D:/yolov5s_conv/vitis/cnn_app/_ide/psinit/conv2d_layer.tcl
+15:51:42 ERROR : invalid command name "ps7_init"
+15:51:42 ERROR : Failed to initialize the hardware. invalid command name "ps7_init"
+20:59:00 INFO  : updated workspace path: D:\yolov5s_conv\vitis
+20:59:01 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\prana\AppData\Local\Temp\rigel_lopper_Pranav_J15631940316462368198 -r D:\yolov5s_conv\vitis\_ide\.wsdata\.repo.yaml
+20:59:02 INFO  : Embedded Template List generated successfully
+21:34:02 INFO  : connection terminated
+21:34:02 INFO  : connection terminated
+21:34:02 INFO  : scheduling shutdown timer for 2 seconds ...
+21:34:04 INFO  : Terminating Vitis C++ Server
+21:34:04 INFO  : Vitis C++ Server terminated

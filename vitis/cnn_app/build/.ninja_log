@@ -1,0 +1,11 @@
+# ninja log v5
+1	9	0	clean	e17afc2392536b1b
+1	173	0	CMakeFiles/print_build_info	b9311d25f6a7761a
+1	173	0	D:/yolov5s_conv/vitis/cnn_app/build/CMakeFiles/print_build_info	b9311d25f6a7761a
+3	127	7932855071358012	build.ninja	70f9e222914f623d
+149	234	7932807174477399	CMakeFiles/cnn_app.elf.dir/main.c.obj	3cee993addafc253
+234	360	7932807175257954	cnn_app.elf	3a60c13d0b5c6b4f
+1	148	0	CMakeFiles/print_build_info	b9311d25f6a7761a
+1	148	0	D:/yolov5s_conv/vitis/cnn_app/build/CMakeFiles/print_build_info	b9311d25f6a7761a
+148	248	7932855074493515	CMakeFiles/cnn_app.elf.dir/main.c.obj	9808987ddc6d2bf5
+248	387	7932855075464084	cnn_app.elf	3a60c13d0b5c6b4f

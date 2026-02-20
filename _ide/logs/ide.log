@@ -1,0 +1,1032 @@
+2026-02-14 12:10:52 [info] : [Platform Server] Creating platform platform  output stream finished - platform. 
+2026-02-16 22:18:47 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-16 22:18:49 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-16 22:42:17 [info] : [Build Server] Clean output stream finished - cnn_app::. 
+2026-02-16 22:50:06 [info] : [Build Server] Clean output stream finished - cnn_app::. 
+2026-02-16 22:50:20 [info] : [Build Server] Clean output stream finished - cnn_app::. 
+2026-02-16 22:50:57 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-16 22:50:59 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-16 22:52:19 [info] : [Build Server] Clean output stream finished - cnn_app::. 
+2026-02-16 22:52:30 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-16 22:52:32 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-16 22:58:48 [info] : [Build Server] Clean output stream finished - cnn_app::. 
+2026-02-16 22:58:58 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-16 22:58:59 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-16 23:00:20 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-16 23:00:21 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] arm-none-eabi-objdump -C -x -S D:\yolov5s_conv\cnn_app\build\cnn_app.elf 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: can't find .debug_ranges section.
+arm-none-eabi-objdump: DWARF error: found dwarf version '5159', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1040', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '20227', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10240', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '25874', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '33554', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '65042', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '38162', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2064', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '272', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '33312', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '6820', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9473', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '300', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '296', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6860', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12811', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '330', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '326', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1525', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '410', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '408', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12808', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '422', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '420', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24842', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '468', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '464', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '27658', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '498', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '494', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '27139', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '536', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '524', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '30996', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6662', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '407', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '835', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '831', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6640', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34304', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5980', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '29441', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1332', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '972', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '970', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6020', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13824', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '29441', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '1342', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6036', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43776', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1046', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1044', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3584', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3084', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3584', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3084', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2304', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3584', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24853', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2304', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '14353', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43520', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43529', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '25875', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1913', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1911', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '62723', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1924', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1922', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '50204', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '768', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4355', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1956', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1954', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43267', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1969', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1965', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '58883', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1996', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1990', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '33539', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2023', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2021', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '41475', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2040', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2032', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '22291', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2078', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2070', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '45827', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2117', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2113', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21267', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2140', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2134', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '60419', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2173', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '2163', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '57091', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2214', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2208', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '62723', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2242', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2240', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '57356', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '40716', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '60684', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39427', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2252', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '54294', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '63505', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '64000', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3584', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39436', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3096', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '52976', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2492', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2490', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '23569', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3584', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '657', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4756', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2549', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2545', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '50437', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3517', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '48899', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2649', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2645', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4656', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21760', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '1792', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2304', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '20525', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21001', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2785', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2781', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25092', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4568', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4568', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9473', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2887', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2885', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4580', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2933', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2931', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1440', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2949', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2947', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '427', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2993', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2991', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1450', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3009', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3007', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12808', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3021', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '3019', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12807', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3108', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3106', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3159', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3155', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '32774', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '443', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '38914', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1239', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3243', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3241', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1792', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6312', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '56320', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '29441', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1250', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3302', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '3300', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1536', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3362', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3360', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '54021', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3421', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3419', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12804', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3480', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3478', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12804', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '3539', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3537', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '427', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3583', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3581', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3599', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3597', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '28689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '45568', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '536', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3631', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3629', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1792', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4496', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2816', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4359', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '24842', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3756', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3738', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '27658', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3891', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3887', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '30996', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6662', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '407', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4298', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4292', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4320', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '64768', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '4394', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4392', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '60433', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '44544', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '440', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4426', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4424', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4108', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '38656', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4461', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4459', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4124', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '48384', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5633', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4515', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4513', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1475', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4547', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4545', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4132', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '50944', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4590', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '4588', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4136', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '38656', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4658', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4656', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5340', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '40192', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11778', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5340', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4763', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4761', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1029', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4809', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4807', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4101', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5380', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43008', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12808', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4857', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4855', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '407', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4941', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4939', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2304', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '52976', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24064', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '376', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3784', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43776', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5375', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5373', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6149', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '512', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6662', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '407', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1474', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5485', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5483', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3908', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '49920', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4359', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '347', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5615', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5613', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12808', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '5627', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5625', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6662', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '407', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1474', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5793', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5791', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1536', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5847', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '5845', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '23045', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '512', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '363', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5923', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5921', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12808', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5935', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5933', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '63233', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6084', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6082', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12807', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6122', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6120', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '505', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '62746', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8772', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '48922', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '56333', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5412', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6201', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6197', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '25094', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5456', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5456', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9473', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6303', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6301', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5468', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6349', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6347', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1440', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6365', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6363', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '427', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6409', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6407', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1450', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6425', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6423', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12808', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '6437', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6435', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12807', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6524', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6522', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6544', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6538', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9252', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7936', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '35255', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '491', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9598', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '19202', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2048', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '26', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '32007', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1244', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6699', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6697', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1536', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6729', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6727', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '63237', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6456', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '57344', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25092', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6472', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '59904', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25092', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6488', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '61440', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4356', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3328', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7012', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7010', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18981', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '3840', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25089', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7107', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7103', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3328', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5532', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '42511', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7157', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7153', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3840', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '35586', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3840', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25858', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13312', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7294', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7290', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3840', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '28674', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25863', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1290', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7359', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7357', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6662', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '407', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5920', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '40960', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '29441', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1448', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5936', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43776', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '7506', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7504', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5952', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43520', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1293', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7594', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7592', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1792', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7621', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7619', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7653', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7651', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25094', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6192', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '54016', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12806', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21762', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6224', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7799', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7797', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1248', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7815', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7813', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6228', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '59392', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '29441', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1258', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7874', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7872', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6240', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '60928', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '29441', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6248', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1264', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7933', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7931', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6252', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '62208', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12808', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7976', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7974', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6504', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8031', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8029', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3845', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11778', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6688', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8104', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8102', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16901', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8150', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8148', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '19973', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6728', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '43008', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12808', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8198', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8196', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15617', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '407', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8282', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8280', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6756', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8309', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8307', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '26117', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8369', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8367', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6772', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '49920', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3840', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12574', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6956', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '18689', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8455', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8453', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1548', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6960', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8483', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8481', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '49669', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '313', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: can't find .debug_ranges section.
+arm-none-eabi-objdump: DWARF error: found dwarf version '5139', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '20226', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '33541', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2051', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '259', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '19461', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '48898', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '38916', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '58882', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '45066', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1536', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1536', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '55814', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2304', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9271', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9267', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '46605', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '56350', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '36640', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '19218', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2057', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16136', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7628', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9338', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9332', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '22799', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '776', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7580', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '774', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2304', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9446', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9440', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '28686', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2817', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '774', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7668', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9554', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9548', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '37644', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '1026', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1026', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9219', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '29956', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15361', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '272', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '288', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '304', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '320', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '17', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '1026', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9219', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '517', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '268', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '284', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '300', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '529', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '316', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '773', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1031', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '519', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '37640', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '62472', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '33544', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '38152', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24584', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2055', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '263', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1622', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1624', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1627', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1628', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1633', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2658', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3685', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3687', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1645', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1647', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '41475', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '768', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '784', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '498', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1864', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '517', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '780', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '796', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '812', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '529', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '828', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '28719', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15408', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1165', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '63509', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1280', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '58885', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9868', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9924', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '27393', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10916', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10914', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '886', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10928', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10926', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24577', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9944', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '31232', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39169', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9952', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '890', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10973', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10971', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24577', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9956', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '33280', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '27393', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34825', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10048', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '38144', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '257', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '717', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11070', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11068', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '943', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11085', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11083', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24577', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1280', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11130', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11128', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '30212', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '950', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11154', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11152', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1280', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11174', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11172', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '30212', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '956', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11194', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11192', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24577', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9760', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11284', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11282', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34825', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9788', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6144', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4352', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9720', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11468', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11466', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34825', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '9748', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '61952', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8448', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2574', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '46610', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25106', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8704', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2634', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '46610', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15139', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4352', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9192', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '269', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21540', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11907', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11893', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34832', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '687', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12015', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12011', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1093', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '20737', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9424', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3186', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '32260', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9500', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39169', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9468', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '476', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12240', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12238', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24577', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '269', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '6912', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9648', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '47360', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39169', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9656', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '441', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12349', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12347', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24577', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '269', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '46603', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12390', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12378', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11300', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '46848', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '21262', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12506', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12504', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '48906', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34825', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '9144', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9216', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2586', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3802', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '46610', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '31498', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '26122', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '48906', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13312', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '46614', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '20481', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '320', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12724', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12722', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24577', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13568', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34825', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8156', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13056', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39169', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '301', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12801', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12797', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '46630', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12934', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '61953', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '42252', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34821', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8808', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '28416', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '34562', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '28957', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13125', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '8916', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '28416', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39169', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '381', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13443', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '9692', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1037', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1058', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '37641', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '33545', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '65033', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '38153', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24585', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2061', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '33545', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '56612', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '23049', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1061', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '304', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11559', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3840', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10536', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15625', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '31256', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '42', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '733', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3338', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '755', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '47370', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '809', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3338', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5899', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13360', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10241', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1574', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13710', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5899', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1129', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '258', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1175', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '258', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '24619', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1267', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '258', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4352', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '13903', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12756', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3584', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12412', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '12', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '14744', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '14791', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '14847', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '14915', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1113', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '14965', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4608', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '3840', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15024', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1105', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15048', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12372', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '64001', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15120', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12400', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1119', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15132', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '12404', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1124', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '61191', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '31765', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '49413', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15193', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '20737', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '26888', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '49413', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15366', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '20737', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '7680', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '20993', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15517', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4352', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '57902', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15606', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11468', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '39937', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11212', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '11008', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10241', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '559', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15805', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15826', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '564', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15847', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15887', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '20736', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '64007', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '57871', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15933', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2816', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '15970', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '25088', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '64007', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '57871', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16032', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5376', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16123', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16141', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16155', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4271', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '258', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16701', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10241', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1736', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16823', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '64001', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '57879', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '64001', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16909', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1296', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '10388', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '1744', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16946', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2005', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '16991', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '64007', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '17064', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: found dwarf version '260', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '61185', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4608', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '5632', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '17115', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '17145', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '27189', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '4352', this reader only handles version 2, 3, 4 and 5 information
+arm-none-eabi-objdump: DWARF error: found dwarf version '2822', this reader only handles version 2, 3, 4 and 5 information
+ 
+2026-02-16 23:08:43 [info] : [Elf Reader Server] Elf reader error arm-none-eabi-objdump: DWARF error: can't find .debug_ranges section.
+ 
+2026-02-17 14:43:39 [info] : [Platform Server] Updating design_1_wrapper XSA for platform platform output stream finished - platform. 
+2026-02-17 14:44:12 [info] : [Platform Server] Updating design_1_wrapper XSA for platform platform output stream finished - platform. 
+2026-02-17 14:44:35 [info] : [Platform Server] Updating design_1_wrapper XSA for platform platform output stream finished - platform. 
+2026-02-17 14:45:46 [info] : [Platform Server] Updating design_1wrapper XSA for platform platform output stream finished - platform. 
+2026-02-17 14:46:52 [info] : [Platform Server] Updating design_1wrapper XSA for platform platform output stream finished - platform. 
+2026-02-17 14:56:31 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-17 14:56:32 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-17 15:16:24 [info] : [Build Server] Clean output stream finished - cnn_app::. 
+2026-02-17 15:16:45 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-17 15:16:46 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-17 15:18:56 [info] : [Platform Server] Updating design_1_wrapper XSA for platform platform output stream finished - platform. 
+2026-02-17 15:20:48 [info] : [Platform Server] Clean platform output stream finished - platform. 
+2026-02-17 15:20:56 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-17 15:23:47 [info] : [Platform Server] Creating platform platform  output stream finished - platform. 
+2026-02-17 15:24:54 [info] : [Platform Server] Creating platform platform1  output stream finished - platform1. 
+2026-02-17 15:43:13 [info] : [Platform Server] Creating platform platform  output stream finished - platform. 
+2026-02-17 15:51:27 [info] : [Platform Server] Creating platform platform  output stream finished - platform. 
+2026-02-18 10:49:46 [info] : [Platform Server] Creating platform cnn_platform  output stream finished - cnn_platform. 
+2026-02-18 11:17:44 [info] : [Build Server] Clean output stream finished - cnn_app::. 
+2026-02-18 11:18:04 [info] : [Platform Server] Generate platform output stream finished - cnn_platform. 
+2026-02-18 11:18:09 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-18 11:20:08 [info] : [Platform Server] Generate platform output stream finished - cnn_platform. 
+2026-02-18 11:20:13 [info] : [Build Server] Build output stream finished - cnn_app::. 
+2026-02-20 11:08:07 [info] : [Platform Server] Creating platform platform  output stream finished - platform. 
+2026-02-20 11:18:19 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-20 11:18:22 [info] : [Build Server] Build output stream finished - app::. 
+2026-02-20 12:24:57 [info] : [Build Server] Clean output stream finished - app::. 
+2026-02-20 12:25:06 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-20 12:25:07 [info] : [Build Server] Build output stream finished - app::. 
+2026-02-20 12:37:03 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-20 12:37:04 [info] : [Build Server] Build output stream finished - app::. 
+2026-02-20 12:40:44 [info] : [Platform Server] Updating pynqZ2 XSA for platform platform output stream finished - platform. 
+2026-02-20 12:41:10 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-20 12:41:41 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-20 12:42:08 [info] : [Build Server] Clean output stream finished - app::. 
+2026-02-20 12:42:18 [info] : [Platform Server] Generate platform output stream finished - platform. 
+2026-02-20 12:42:19 [info] : [Build Server] Build output stream finished - app::. 

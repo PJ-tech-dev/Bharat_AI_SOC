@@ -1,0 +1,4 @@
+D:/yolov5s_conv/vitis/cnn_app/build/CMakeFiles/cnn_app.elf.dir
+D:/yolov5s_conv/vitis/cnn_app/build/CMakeFiles/print_build_info.dir
+D:/yolov5s_conv/vitis/cnn_app/build/CMakeFiles/edit_cache.dir
+D:/yolov5s_conv/vitis/cnn_app/build/CMakeFiles/rebuild_cache.dir
