@@ -1,0 +1,4 @@
+domain_path: D:\yolov5s_conv\vitis\cnn_platform\zynq_fsbl\zynq_fsbl_bsp
+app_src_dir: D:\Vivado\2025.2\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

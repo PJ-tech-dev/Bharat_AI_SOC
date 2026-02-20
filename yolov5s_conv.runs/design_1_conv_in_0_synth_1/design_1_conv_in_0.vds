@@ -1,129 +1,139 @@
 #-----------------------------------------------------------
-# Vivado v2022.2 (64-bit)
-# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
-# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Sat Feb 14 11:07:33 2026
-# Process ID: 14980
-# Current directory: C:/Users/prana/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1
-# Command line: vivado.exe -log design_1_conv_in_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_conv_in_0.tcl
-# Log file: C:/Users/prana/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/design_1_conv_in_0.vds
-# Journal file: C:/Users/prana/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1\vivado.jou
-# Running On: Pranav_J, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 8, Host memory: 16890 MB
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Feb 17 15:08:38 2026
+# Process ID         : 14156
+# Current directory  : D:/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1
+# Command line       : vivado.exe -log design_1_conv_in_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_conv_in_0.tcl
+# Log file           : D:/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/design_1_conv_in_0.vds
+# Journal file       : D:/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1\vivado.jou
+# Running On         : Pranav_J
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12450HX
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 12
+# Host memory        : 16890 MB
+# Swap memory        : 9911 MB
+# Total Virtual      : 26801 MB
+# Available Virtual  : 2748 MB
 #-----------------------------------------------------------
 source design_1_conv_in_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 601.934 ; gain = 220.156
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/prana/yolov5s_conv/export'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2022.2/data/ip'.
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_conv_in_0
-Command: synth_design -top design_1_conv_in_0 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/yolov5s_conv/export'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2025.2/Vivado/data/ip'.
+Command: synth_design -top design_1_conv_in_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
-INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 20260
-INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Vivado/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-7075] Helper process launched with PID 21552
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1241.926 ; gain = 407.152
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1384.340 ; gain = 540.434
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_conv_in_0' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ip/design_1_conv_in_0/synth/design_1_conv_in_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_26_axis_dwidth_converter' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/f536/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
-INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_26_axisc_downsizer' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/f536/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:61]
-INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_26_axisc_downsizer' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/f536/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:61]
-INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
-INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
-INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
-INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
-INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
-INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
-INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
-INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
-INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice__parameterized0' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
-INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
-INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_axis2vector__parameterized0' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:809]
-INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice__parameterized0' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
-INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axisc_register_slice__parameterized0' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:1935]
-INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
-INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_0_util_vector2axis__parameterized0' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/8713/hdl/axis_infrastructure_v1_1_vl_rfs.v:991]
-INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_27_axis_register_slice__parameterized0' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/6ba3/hdl/axis_register_slice_v1_1_vl_rfs.v:2837]
-INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_26_axis_dwidth_converter' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/f536/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:809]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_conv_in_0' (0#1) [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ip/design_1_conv_in_0/synth/design_1_conv_in_0.v:53]
-WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_27_axisc_register_slice__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TUSER[1] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TUSER[0] in module axis_infrastructure_v1_1_0_util_axis2vector__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_27_axisc_register_slice is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TUSER[3] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TUSER[2] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TUSER[1] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port TUSER[0] in module axis_infrastructure_v1_1_0_util_axis2vector is either unconnected or has no load
-WARNING: [Synth 8-7129] Port s_axis_tuser[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
+INFO: [Synth 8-6157] synthesizing module 'design_1_conv_in_0' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ip/design_1_conv_in_0/synth/design_1_conv_in_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_34_axis_dwidth_converter' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/80a6/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:814]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_34_axisc_downsizer' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/80a6/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_34_axisc_downsizer' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/80a6/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_35_axis_register_slice' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_35_axisc_register_slice' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_35_axisc_register_slice' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_35_axis_register_slice' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_35_axis_register_slice__parameterized0' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector__parameterized0' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector__parameterized0' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_35_axisc_register_slice__parameterized0' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_35_axisc_register_slice__parameterized0' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis__parameterized0' [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis__parameterized0' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_35_axis_register_slice__parameterized0' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/be12/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_34_axis_dwidth_converter' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ipshared/80a6/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:814]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_conv_in_0' (0#1) [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ip/design_1_conv_in_0/synth/design_1_conv_in_0.v:53]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+INFO: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_35_axisc_register_slice__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_35_axisc_register_slice__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_35_axisc_register_slice__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_35_axisc_register_slice__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TUSER[1] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port TUSER[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+INFO: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_35_axisc_register_slice is either unconnected or has no load
+INFO: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_35_axisc_register_slice is either unconnected or has no load
+INFO: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_35_axisc_register_slice is either unconnected or has no load
+INFO: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_35_axisc_register_slice is either unconnected or has no load
+INFO: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TID[0] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TUSER[3] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TUSER[2] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TUSER[1] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port TUSER[0] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_tuser[0] in module axis_dwidth_converter_v1_1_34_axis_dwidth_converter is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1340.832 ; gain = 506.059
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1512.891 ; gain = 668.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1340.832 ; gain = 506.059
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1512.891 ; gain = 668.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1340.832 ; gain = 506.059
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1512.891 ; gain = 668.984
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1340.832 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1512.891 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ip/design_1_conv_in_0/design_1_conv_in_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [c:/Users/prana/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ip/design_1_conv_in_0/design_1_conv_in_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [C:/Users/prana/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/prana/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/dont_touch.xdc]
+Parsing XDC File [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ip/design_1_conv_in_0/design_1_conv_in_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [d:/yolov5s_conv/yolov5s_conv.gen/sources_1/bd/design_1/ip/design_1_conv_in_0/design_1_conv_in_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [D:/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1400.895 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1572.957 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1402.465 ; gain = 1.570
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1572.957 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
-INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Vivado/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.957 ; gain = 729.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
-Loading part: xc7z020clg484-1
+Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.957 ; gain = 729.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  C:/Users/prana/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.957 ; gain = 729.051
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.957 ; gain = 729.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -159,34 +169,33 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-7129] Port s_axis_tstrb[3] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
-WARNING: [Synth 8-7129] Port s_axis_tstrb[2] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
-WARNING: [Synth 8-7129] Port s_axis_tstrb[1] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
-WARNING: [Synth 8-7129] Port s_axis_tstrb[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
-WARNING: [Synth 8-7129] Port s_axis_tid[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
-WARNING: [Synth 8-7129] Port s_axis_tdest[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
-WARNING: [Synth 8-7129] Port s_axis_tuser[0] in module axis_dwidth_converter_v1_1_26_axis_dwidth_converter is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_tstrb[3] in module axis_dwidth_converter_v1_1_34_axis_dwidth_converter is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_tstrb[2] in module axis_dwidth_converter_v1_1_34_axis_dwidth_converter is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_tstrb[1] in module axis_dwidth_converter_v1_1_34_axis_dwidth_converter is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_tstrb[0] in module axis_dwidth_converter_v1_1_34_axis_dwidth_converter is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_tid[0] in module axis_dwidth_converter_v1_1_34_axis_dwidth_converter is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_tdest[0] in module axis_dwidth_converter_v1_1_34_axis_dwidth_converter is either unconnected or has no load
+INFO: [Synth 8-7129] Port s_axis_tuser[0] in module axis_dwidth_converter_v1_1_34_axis_dwidth_converter is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1572.957 ; gain = 729.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1704.766 ; gain = 860.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1724.609 ; gain = 880.703
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1724.609 ; gain = 880.703
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -204,37 +213,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1964.219 ; gain = 1120.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1964.219 ; gain = 1120.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1964.219 ; gain = 1120.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1964.219 ; gain = 1120.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1964.219 ; gain = 1120.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1964.219 ; gain = 1120.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -258,27 +267,29 @@ Report Cell Usage:
 |6     |FDRE |    62|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1964.219 ; gain = 1120.312
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1402.465 ; gain = 506.059
-Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.465 ; gain = 567.691
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1964.219 ; gain = 1060.246
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1964.219 ; gain = 1120.312
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1402.465 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1964.801 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1402.465 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1968.473 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: da959651
+Synth Design complete | Checksum: 76bd258f
 INFO: [Common 17-83] Releasing license: Synthesis
-42 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+73 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1402.465 ; gain = 973.617
-INFO: [Common 17-1381] The checkpoint 'C:/Users/prana/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/design_1_conv_in_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_conv_in_0, cache-ID = deeedabf7fe33435
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 1968.473 ; gain = 1348.488
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1968.473 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/design_1_conv_in_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_conv_in_0, cache-ID = 40f5581fa74bec4a
 INFO: [Coretcl 2-1174] Renamed 2 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/prana/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/design_1_conv_in_0.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file design_1_conv_in_0_utilization_synth.rpt -pb design_1_conv_in_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Feb 14 11:08:02 2026...
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1968.473 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/yolov5s_conv/yolov5s_conv.runs/design_1_conv_in_0_synth_1/design_1_conv_in_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_conv_in_0_utilization_synth.rpt -pb design_1_conv_in_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 17 15:09:26 2026...

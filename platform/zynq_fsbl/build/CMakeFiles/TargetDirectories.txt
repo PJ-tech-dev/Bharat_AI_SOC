@@ -1,3 +1,0 @@
-D:/yolov5s_conv/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
-D:/yolov5s_conv/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
-D:/yolov5s_conv/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
